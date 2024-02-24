@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.container{
+    display: flex;
+}
+
+.barra_lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    background-color: #fff;
+    min-height: 100vh;
+    border-right: 1px solid #C2C2C2;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 270px;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.info{
+    padding-left: 20px ;
+    display: flex;
+    flex-grow: 3;
+}
+
+.nombre{
+    padding-left: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nombre h4{
+    padding-left: 2px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nombre p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #949697;
+}
+
+.info img{
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+    border: 1px solid #C2C2C2;
+}
+
+.iconos{
+    display: flex;
+    padding-right: 20px;
+}
+.iconos i{
+    color: #959797;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.nuevo_chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuevo_chat button {
+    background-color: #A491D3;
+    border: none;
+    color: white;
+    width: 180px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.nuevo_chat{
+    height: 130px;
+    width: 270px;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.fondo{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-grow: 3;
+}
+
+.fondo img{
+    height: 35%;
+}
+
+.fondo h2{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.fondo p{
+    font-size: 16px;
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.chat{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #C2C2C2;
+    flex-grow: 1;
+}
+
+.chat img{
+    margin-left: 25px;
+    margin-right: 5px;
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid #C2C2C2;
+}
+
+.chat p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
